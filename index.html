@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Tabs UI</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./style.css">
+        <style>
+            .line {
+                position: absolute;
+                left: 0px;
+                bottom: 0px;
+                height: 6px;
+                border-radius: 15px;
+                background-color: #c23564;
+                transition: all 0.2s ease;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="tab-items">
+            <div class="item">
+                <button>
+                    React
+                </button>
+            </div>
+            <div class="item">
+                <button>
+                    Angular
+                </button>
+            </div>
+            <div class="item">
+                <button>
+                    Ember
+                </button>
+            </div>
+            <div class="item">
+                <button>
+                    Vue.JS
+                </button>
+            <div class="line"></div>
+        </div>
+
+        <div class="tab-contents">
+            <div class="content active">
+                <h2>React</h2>
+                <p>React 123</p>
+            </div>
+            <div class="content">
+                <h2>Angular</h2>
+                <p>Angular 456</p>
+            </div>
+            <div class="content">
+                <h2>Ember</h2>
+                <p>Ember 789</p>
+            </div>
+            <div class="content">
+                <h2>Vue.JS</h2>
+                <p>Vue.JS 0</p>
+            </div>
+        </div>
+        <script src="./main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    width: 800px;
+}
+
+.display-none {
+    display: none;
+}
+
+.active {
+    display: inline-block !important;
+}
+
+.tab-items {
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+
+.tab-items .item {
+    display: inline-block;
+}
+
+.tab-items .item button {
+    margin: 10px;
+    border: 0px;
+    padding: 15px 50px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #c23564;;
+    background-color: #fff;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.tab-items .item button:hover {
+    opacity: 1.0;
+}
+
+.tab-contents {
+    position: absolute;
+    top: 250px;
+    left: 130px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.tab-contents .content {
+    display: none;
+}
