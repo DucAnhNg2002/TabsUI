@@ -4,8 +4,7 @@ var line = document.querySelector('.line');
 var pos = 0;
 
 function setting(index,value) {
-    button_items.forEach((value,index)=>{
-        value.style.border = '0px';
+    button_items.forEach((value,index)=>{;
         value.style.opacity = '0.6';
     });
     value.style.opacity = '1.0';
